@@ -1,0 +1,22 @@
+.container {
+	padding: 5px;
+	width: 150px;
+	background-color: lightgrey;
+	height: 150px;
+    border-radius: 10px;
+}
+
+.containerIMG {
+	width: 140px;
+	height: 100px;
+	background-color: black;
+    border-radius: 5px;
+}
+
+.informacoes {
+	margin-top: 5px;
+}
+
+.informacoes a {
+	float: right;
+}
