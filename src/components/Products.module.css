@@ -11,16 +11,42 @@
 .containerIMG {
 	display: flex;
 	margin: auto;
-	width: 100px;
+	width: 130px;
 	height: 100px;
-	/* background-color: black; */
     border-radius: 5px;
+}
+
+.containerIMG img{
+	width: 130px;
+}
+
+@media screen and (min-width: 420px) {
+    .container{
+		width:	150px;
+		height: 170px;
+	}
+
+	.informacoes a {
+		top: 30px;
+	}
+
+	.containerIMG {
+		width: 145px;
+		height: 115px;
+	}
+
+	.containerIMG img {
+		width: 145px;
+	}
+	
 }
 
 .informacoes {
 	margin-top: 5px;
+	position: relative;
 }
 
 .informacoes a {
-	float: right;
+	position: absolute;
+	right: 0;
 }
