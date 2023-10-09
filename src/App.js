@@ -1,6 +1,9 @@
+import Main from './components/Main'
 import styles from './App.module.css'
 
-import Products from './components/Products'
+import { FaFacebook } from 'react-icons/fa'
+import { FaInstagram } from 'react-icons/fa'
+import { FaWhatsapp } from 'react-icons/fa'
 
 function App() {
 	return (
@@ -9,25 +12,54 @@ function App() {
 				<h1>Troca Fácil</h1>
 			</header>
 
-			<main>
-				<Products nameProduct="Teste 1" imgProduct="https://via.placeholder.com/170x150" />
-				<Products nameProduct="Teste 2" imgProduct="https://via.placeholder.com/1000" />
-				<Products nameProduct="Teste 3" imgProduct="https://via.placeholder.com/100&text=Sem imagem" />
-				<Products nameProduct="Teste 4" imgProduct="https://via.placeholder.com/100&text=Sem imagem" />
-				<Products nameProduct="Teste 5" imgProduct="https://via.placeholder.com/100&text=Sem imagem"/>
-				<Products nameProduct="Teste 6" imgProduct="https://via.placeholder.com/100&text=Sem imagem" />
-				<Products nameProduct="Teste 7" imgProduct="https://via.placeholder.com/100&text=Sem imagem" />
-				<Products nameProduct="Teste 8" imgProduct="https://via.placeholder.com/100&text=Sem imagem" />
-				<Products nameProduct="Teste 9" imgProduct="https://via.placeholder.com/100&text=Sem imagem"/>
-				<Products nameProduct="Teste 10" imgProduct="https://via.placeholder.com/100&text=Sem imagem" />
-				<Products nameProduct="Teste 11" imgProduct="https://via.placeholder.com/100&text=Sem imagem" />
-				<Products nameProduct="Teste 12" imgProduct="https://via.placeholder.com/100&text=Sem imagem" />
-			</main>
+			<Main />
 
-			<section>Informações da Empresa</section>
+			<section className={styles.section}>
+				<h2>Sobre nossa empresa:</h2>
+				<p>
+					O Troca Fácil foi fundado em 2023 com a missão de tornar a
+					troca de produtos mais acessível e sustentável. Estamos
+					comprometidos em criar uma comunidade de troca confiável e
+					eficiente.
+				</p>
 
-			<footer>
-				<p>Contatos e Redes sociais</p>
+				<h3>Onde você pode nos encontrar?</h3>
+				<p>
+					Estamos localizados na &#8658;
+					<a href="https://maps.app.goo.gl/ottF5F1RnD26o68z5">
+						Rodovia RS 453, Nr 15276, Teutônia - RS, 95890-000
+					</a>
+				</p>
+			</section>
+
+			<footer className={styles.rodape}>
+				<h3>Entre em Contato</h3>
+				<p>
+					Entre em contato pelo nosso <a href="mailto:jonathankirch101@gmail.com?subject=Olá, gostaria de entrar em contato para falar sobre a empresa Troca Fácil!">E-mail</a>, ou por nossas redes
+					socias:
+				</p>
+				<div className={styles.icons}>
+					<ul>
+						<li>
+							<a href="/">
+								<FaFacebook color="black" />
+								@trocafacil
+							</a>
+						</li>
+						<li>
+							<a href="/">
+								<FaInstagram color="black" />
+								@trocafacil_oficial
+							</a>
+						</li>
+						<li>
+							<a href="/">
+								<FaWhatsapp color="black" />
+								Troca Fácil
+							</a>
+						</li>
+					</ul>
+				</div>
 			</footer>
 		</div>
 	)
