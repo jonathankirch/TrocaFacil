@@ -10,10 +10,10 @@ function App() {
 			</header>
 
 			<main>
-				<Products nameProduct="Teste 1" />
-				<Products nameProduct="Teste 2" />
-				<Products nameProduct="Teste 3" />
-				<Products nameProduct="Teste 4" />
+				<Products nameProduct="Teste 1" imgProduct="https://via.placeholder.com/100&text=Sem imagem"/>
+				<Products nameProduct="Teste 2" imgProduct="https://via.placeholder.com/100&text=Sem imagem" />
+				<Products nameProduct="Teste 3" imgProduct="https://via.placeholder.com/100&text=Sem imagem" />
+				<Products nameProduct="Teste 4" imgProduct="https://via.placeholder.com/100&text=Sem imagem" />
 			</main>
 
 			<section>Informações da Empresa</section>

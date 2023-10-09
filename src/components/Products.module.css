@@ -1,15 +1,19 @@
 .container {
 	padding: 5px;
-	width: 150px;
+	width: 130px;
 	background-color: lightgrey;
 	height: 150px;
     border-radius: 10px;
+	border: 1px solid red;
+	margin-bottom: 15px;
 }
 
 .containerIMG {
-	width: 140px;
+	display: flex;
+	margin: auto;
+	width: 100px;
 	height: 100px;
-	background-color: black;
+	/* background-color: black; */
     border-radius: 5px;
 }
 
