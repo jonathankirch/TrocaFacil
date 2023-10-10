@@ -25,11 +25,11 @@
 @media screen and (min-width: 420px) {
     .container{
 		width:	150px;
-		height: 200px;
+		height: 210px;
 	}
 
 	.informacoes a {
-		top: 30px;
+		margin-top: 10px;
 	}
 
 	.containerIMG {
@@ -53,8 +53,33 @@
 	position: relative;
 }
 
+.informacoes p {
+	font-weight: bold
+}
+
 .informacoes a {
 	position: absolute;
-	top: 25px;
+	top: 18px;
 	right: 0;
+}
+
+.iconWhats{
+	width: 25px;
+	margin-left: 5px;
+}
+
+.trocaBTN{
+	display: flex;
+	background-color: green;
+	border-radius: 20px;
+	align-items: center;
+	padding: 3px;
+	padding-left: 5px;
+	font-weight: bold;
+	color: white;
+	border: 1px solid white;
+}
+
+a {
+	text-decoration: none;
 }

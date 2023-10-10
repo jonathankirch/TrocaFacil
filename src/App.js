@@ -26,7 +26,7 @@ function App() {
 				<h3>Onde você pode nos encontrar?</h3>
 				<p>
 					Estamos localizados na &#8658;
-					<a href="https://maps.app.goo.gl/ottF5F1RnD26o68z5">
+					<a href="https://maps.app.goo.gl/ottF5F1RnD26o68z5" target='_blank' rel='noopener noreferrer'>
 						Rodovia RS 453, Nr 15276, Teutônia - RS, 95890-000
 					</a>
 				</p>
@@ -47,13 +47,13 @@ function App() {
 							</a>
 						</li>
 						<li>
-							<a href="/">
+							<a href="https://instagram.com/alan_caye?igshid=MWZjMTM2ODFkZg==" target='_blank' rel='noopener noreferrer'>
 								<FaInstagram color="black" />
 								@trocafacil_oficial
 							</a>
 						</li>
 						<li>
-							<a href="/">
+							<a href="https://api.whatsapp.com/send?phone=5551996449577&text=Ol%C3%A1%2C%20gostaria%20de%20entrar%20em%20contato%20para%20falar%20sobre%20sua%20empresa%20Troca%20F%C3%A1cil%21%0A%0AAssunto%3A%0A">
 								<FaWhatsapp color="black" />
 								Troca Fácil
 							</a>
