@@ -1,12 +1,23 @@
+:root {
+	--azul: #00BFFF;
+	--verde: #00FF7F;
+	--vermelho: #FF6347;
+  }
+  
+
+
+
 .container {
 	padding: 5px;
 	width: 130px;
-	background-color: lightgrey;
+	background-color: white;
 	height: 150px;
     border-radius: 10px;
-	border: 1px solid red;
 	margin-bottom: 15px;
+	box-shadow: 0px 0px 4px 0px black;
 }
+
+
 
 .containerIMG {
 	display: flex;
@@ -20,6 +31,7 @@
 	width: 130px;
 	border-radius: 5px;
 	border: 1px solid black;
+	box-shadow: 0px 0px 3px 0px black;
 }
 
 @media screen and (min-width: 420px) {
@@ -77,7 +89,7 @@
 	padding-left: 5px;
 	font-weight: bold;
 	color: white;
-	border: 1px solid white;
+	box-shadow: 0px 0px 2px 0px black;
 }
 
 a {
