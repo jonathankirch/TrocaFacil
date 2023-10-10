@@ -1,55 +1,80 @@
+import boneLacoste from '../img/IMG-20231009-WA0012.jpg'
+import colar from '../img/IMG-20231009-WA0013.jpg'
+import foneSemFio from '../img/IMG-20231009-WA0014.jpg'
+import tenisNike from '../img/IMG-20231009-WA0015.jpg'
+import luvaFutebol from '../img/IMG-20231009-WA0016.jpg'
+import tapeteAntigo from '../img/IMG-20231009-WA0017.jpg'
+import foneDeOuvido from '../img/IMG-20231009-WA0018.jpg'
+import canecaMikey from '../img/IMG-20231009-WA0019.jpg'
+import Quadro from '../img/IMG-20231009-WA0020.jpg'
+import MouseHP from '../img/IMG-20231009-WA0021.jpg'
+import relogioAnalogico from '../img/IMG-20231009-WA0022.jpg'
+import camisetaNaruto from '../img/IMG-20231009-WA0023.jpg'
+
 import Products from './Products'
 
 function Main() {
 	return (
 		<main>
 			<Products
-				nameProduct="Teste 1"
-				imgProduct="https://via.placeholder.com/170x150"
+				nameProduct="Boné Lacoste"
+				imgProduct={boneLacoste}
+				produtoNameURL="Boné Lacoste"
 			/>
 			<Products
-				nameProduct="Teste 2"
-				imgProduct="https://via.placeholder.com/1000"
+				nameProduct="Colar"
+				imgProduct={colar}
+				produtoNameURL="Colar"
 			/>
 			<Products
-				nameProduct="Teste 3"
-				imgProduct="https://via.placeholder.com/100&text=Sem imagem"
+				nameProduct="Fone sem fio"
+				imgProduct={foneSemFio}
+				produtoNameURL="Fone sem fio"
 			/>
 			<Products
-				nameProduct="Teste 4"
-				imgProduct="https://via.placeholder.com/100&text=Sem imagem"
+				nameProduct="Tênis Nike"
+				imgProduct={tenisNike}
+				produtoNameURL="Tênis Nike"
 			/>
 			<Products
-				nameProduct="Teste 5"
-				imgProduct="https://via.placeholder.com/100&text=Sem imagem"
+				nameProduct="Luva de Goleiro"
+				imgProduct={luvaFutebol}
+				produtoNameURL="Luva de Goleiro"
 			/>
 			<Products
-				nameProduct="Teste 6"
-				imgProduct="https://via.placeholder.com/100&text=Sem imagem"
+				nameProduct="Tapete Antigo"
+				imgProduct={tapeteAntigo}
+				produtoNameURL="Tapete Antigo"
 			/>
 			<Products
-				nameProduct="Teste 7"
-				imgProduct="https://via.placeholder.com/100&text=Sem imagem"
+				nameProduct="Fone de Ouvido"
+				imgProduct={foneDeOuvido}
+				produtoNameURL="Fone de Ouvido"
 			/>
 			<Products
-				nameProduct="Teste 8"
-				imgProduct="https://via.placeholder.com/100&text=Sem imagem"
+				nameProduct="Caneca Mikey"
+				imgProduct={canecaMikey}
+				produtoNameURL="Caneca Mikey"
 			/>
 			<Products
-				nameProduct="Teste 9"
-				imgProduct="https://via.placeholder.com/100&text=Sem imagem"
+				nameProduct="Quadro"
+				imgProduct={Quadro}
+				produtoNameURL="Quadro"
 			/>
 			<Products
-				nameProduct="Teste 10"
-				imgProduct="https://via.placeholder.com/100&text=Sem imagem"
+				nameProduct="Mouse HP"
+				imgProduct={MouseHP}
+				produtoNameURL="Mouse HP"
 			/>
 			<Products
-				nameProduct="Teste 11"
-				imgProduct="https://via.placeholder.com/100&text=Sem imagem"
+				nameProduct="Relógio Analógico"
+				imgProduct={relogioAnalogico}
+				produtoNameURL="Relógio Analógico"
 			/>
 			<Products
-				nameProduct="Teste 12"
-				imgProduct="https://via.placeholder.com/100&text=Sem imagem"
+				nameProduct="Camiseta Naruto"
+				imgProduct={camisetaNaruto}
+				produtoNameURL="Camiseta Naruto"
 			/>
 		</main>
 	)
