@@ -43,7 +43,7 @@ function App() {
 				<p>
 					Entre em contato pelo nosso{' '}
 					<a href="mailto:jonathankirch101@gmail.com?subject=Olá, gostaria de entrar em contato para falar sobre a empresa Troca Fácil!">
-						E-mail
+						<strong>E-mail</strong>
 					</a>
 					, ou por nossas redes socias:
 				</p>
@@ -51,7 +51,7 @@ function App() {
 					<ul>
 						<li>
 							<a href="/">
-								<FaFacebook size={30} color="#fb3640" />
+								<FaFacebook size={30} color="white" />
 							</a>
 						</li>
 						<li>
@@ -60,12 +60,12 @@ function App() {
 								target="_blank"
 								rel="noopener noreferrer"
 							>
-								<FaInstagram size={30} color="#fb3640" />
+								<FaInstagram size={30} color="white" />
 							</a>
 						</li>
 						<li>
 							<a href="https://api.whatsapp.com/send?phone=5551996449577&text=Ol%C3%A1%2C%20gostaria%20de%20entrar%20em%20contato%20para%20falar%20sobre%20sua%20empresa%20Troca%20F%C3%A1cil%21%0A%0AAssunto%3A%0A">
-								<FaWhatsapp size={30} color="#fb3640" />
+								<FaWhatsapp size={30} color="white" />
 							</a>
 						</li>
 					</ul>
