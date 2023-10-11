@@ -86,7 +86,7 @@ main {
 
 .section h2 {
 	margin-bottom: 10px;
-	color: #a4bef3;
+	color: white;
 	background-image: linear-gradient(to right, black 60%, transparent);
 	border-radius: 5px;
 	padding-left: 10px;
@@ -97,7 +97,7 @@ main {
 
 .section h3 {
 	margin-bottom: 10px;
-	color: #a4bef3;
+	color: white;
 	background-image: linear-gradient(to right, black 60%, transparent);
 	border-radius: 5px;
 	padding-left: 10px;
