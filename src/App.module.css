@@ -65,6 +65,11 @@ main {
 		max-width: 500px;
 		margin: auto;
 	}
+
+	.section {
+		max-width: 500px;
+		margin: auto;
+	}
 }
 
 .divSection {
