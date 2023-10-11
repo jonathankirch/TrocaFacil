@@ -1,63 +1,27 @@
-:root {
-	--azul: #00BFFF;
-	--verde: #00FF7F;
-	--vermelho: #FF6347;
-  }
-  
-
-
-
 .container {
 	padding: 5px;
-	width: 130px;
+	width: 150px;
+	height: 210px;
 	background-color: white;
-	height: 150px;
-    border-radius: 10px;
+	border-radius: 10px;
 	margin-bottom: 15px;
 	box-shadow: 0px 0px 4px 0px black;
 }
 
-
-
 .containerIMG {
 	display: flex;
 	margin: auto;
-	width: 130px;
-	height: 100px;
-    border-radius: 5px;
+	width: 145px;
+	height: 145px;
+	border-radius: 5px;
 }
 
-.containerIMG img{
-	width: 130px;
+.containerIMG img {
+	width: 145px;
+	height: 145px;
 	border-radius: 5px;
 	border: 1px solid black;
 	box-shadow: 0px 0px 3px 0px black;
-}
-
-@media screen and (min-width: 0px) {
-    .container{
-		width:	150px;
-		height: 210px;
-	}
-
-	.informacoes a {
-		margin-top: 10px;
-	}
-
-	.containerIMG {
-		width: 145px;
-		height: 145px;
-	}
-
-	.containerIMG img {
-		width: 145px;
-		height: 145px;
-	}
-
-	.informacoes {
-		margin-top: 20px;
-	}
-	
 }
 
 .informacoes {
@@ -66,21 +30,21 @@
 }
 
 .informacoes p {
-	font-weight: bold
+	font-weight: bold;
 }
 
 .informacoes a {
 	position: absolute;
-	top: 18px;
 	right: 0;
+	margin-top: 10px;
 }
 
-.iconWhats{
+.iconWhats {
 	width: 25px;
 	margin-left: 5px;
 }
 
-.trocaBTN{
+.trocaBTN {
 	display: flex;
 	background-color: green;
 	border-radius: 20px;

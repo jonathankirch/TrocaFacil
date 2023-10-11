@@ -5,7 +5,7 @@ import tenisNike from '../img/produtos-img/IMG-20231009-WA0015.jpg'
 import luvaFutebol from '../img/produtos-img/IMG-20231009-WA0016.jpg'
 import tapeteAntigo from '../img/produtos-img/IMG-20231009-WA0017.jpg'
 import foneDeOuvido from '../img/produtos-img/IMG-20231009-WA0018.jpg'
-import canecaMikey from '../img/produtos-img/IMG-20231009-WA0019.jpg'
+import canecaMickey from '../img/produtos-img/IMG-20231009-WA0019.jpg'
 import Quadro from '../img/produtos-img/IMG-20231009-WA0020.jpg'
 import MouseHP from '../img/produtos-img/IMG-20231009-WA0021.jpg'
 import relogioAnalogico from '../img/produtos-img/IMG-20231009-WA0022.jpg'
@@ -52,9 +52,9 @@ function Main() {
 				produtoNameURL="Fone de Ouvido"
 			/>
 			<Products
-				nameProduct="Caneca Mikey"
-				imgProduct={canecaMikey}
-				produtoNameURL="Caneca Mikey"
+				nameProduct="Caneca Mickey"
+				imgProduct={canecaMickey}
+				produtoNameURL="Caneca Mickey"
 			/>
 			<Products
 				nameProduct="Quadro"
